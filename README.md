@@ -24,7 +24,7 @@ pip install livecli
 #### Manual installation via Python
 
 ```bash
-git clone https://github.com/livecli/livecli
+git clone https://github.com/NghiemTrung/livecli
 cd livecli
 pip install -U .
 ```
