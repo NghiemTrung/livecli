@@ -1,0 +1,10 @@
+pip>=6
+pytest
+pytest-cov
+codecov
+coverage
+flake8
+mock
+requests-mock
+pynsist
+versioneer

@@ -1,0 +1,18 @@
+[run]
+source =
+    livecli
+    livecli_cli
+
+[report]
+omit =
+  */python?.?/*
+  *__init__*
+  src/livecli/packages/*
+  src/livecli_cli/packages/*
+  src/livecli/_version.py
+
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise NotImplementedError
+    if __name__ == .__main__.:

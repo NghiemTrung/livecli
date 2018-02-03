@@ -1,0 +1,12 @@
+include AUTHORS
+include CHANGELOG.rst
+include README.md
+include LICENSE*
+include *requirements.txt
+
+recursive-include docs *
+prune docs/_build
+recursive-include examples *
+recursive-include tests *py
+include versioneer.py
+include src/livecli/_version.py
